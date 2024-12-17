@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles: referencing a file that isn't included in the build context.  The initial `Dockerfile` will fail to build because `requirements.txt` is missing. The corrected `Dockerfile.fixed` shows the solution.
